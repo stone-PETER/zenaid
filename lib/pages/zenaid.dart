@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:zenaid/pages/home.dart';
 
 class ZenAid extends StatelessWidget {
@@ -34,7 +33,7 @@ class ZenAid extends StatelessWidget {
                 ),
               ),
 
-              GestureDetector(
+             GestureDetector(
                 onTap: () => Navigator.push(context, MaterialPageRoute(builder: (context) => Home())),
                 child: Container(
                   height: 60,
@@ -55,7 +54,6 @@ class ZenAid extends StatelessWidget {
                   ),
                 ),
               )
-
               //title
             ],
           ),
